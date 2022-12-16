@@ -1,9 +1,9 @@
 import React from 'react'
 import { Button, Container, Form, Nav, Navbar } from 'react-bootstrap'
-import { Link, useNavigate } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import LOGO from '../assets/하얀제목.png'
 
-const Navigation = () => {
+const NavigationHome = () => {
   return (
     <Navbar bg="dark" variant="dark" expand="lg" className='navTop'>
       <Container fluid>
@@ -15,10 +15,7 @@ const Navigation = () => {
             style={{ maxHeight: '100px' }}
             navbarScroll
           > &nbsp;&nbsp;&nbsp;&nbsp;
-            <a href="/" className='navItem'>홈</a>&nbsp;&nbsp;&nbsp;&nbsp;
-            <a href="/#popularArea" className='navItem'>오늘의 화제작</a>&nbsp;&nbsp;&nbsp;&nbsp;
-            <a href="/#topRatedArea" className='navItem'>평점이 와르르</a>&nbsp;&nbsp;&nbsp;&nbsp;
-            <a href="/#upcomingArea" className='navItem'>개봉예정작</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="/" className='navItem'>홈</a>
           </Nav>
           {/* <Form className="d-flex">
             <Form.Control
@@ -35,4 +32,4 @@ const Navigation = () => {
   )
 }
 
-export default Navigation
+export default NavigationHome
