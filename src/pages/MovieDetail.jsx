@@ -35,9 +35,7 @@ const MovieDetail = () => {
         <h2>관련 영화</h2>
         <MovieSlide movies={movieSimilar} />
       </Container>
-      <Footer />
     </div>
-     
   )
 }
 
